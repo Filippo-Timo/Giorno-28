@@ -1,2 +1,14 @@
 main {
+  font-family: arial;
+  padding: 100px 0px;
+
+  #cards-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+    img {
+      border-radius: 15px;
+    }
+  }
 }
